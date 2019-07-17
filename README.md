@@ -19,7 +19,7 @@ Please use the same repository you used yesterday for Grail Diary Part 1. If you
 
 ### File Tasks
 
-1. Create a new file using the Cocoa Touch Class template; call it `POIsTableViewController` and use the parent class `UITableViewController`
+1. Create a new file using the Cocoa Touch Class template; call it `POIsTableViewController` and use the parent class `UIViewController`
 2. Create 2 more files in the same way; `AddPOIViewController` (subclassed from `UIViewController`) and `POIDetailViewController` (also subclassed from `UIViewController`)
 3. Create a class subclassed from `UITableViewCell` called `POITableViewCell`
 4. Create a Swift file called `POI` (this is your model)
@@ -32,7 +32,7 @@ Please use the same repository you used yesterday for Grail Diary Part 1. If you
 
 #### In `POI.swift`:
 
-6. Create a `struct` called `POI` that models 3 properties: `location`, `country`, and `clues`; the data types are `String`, `String`, and an array of `String` objects; make the struct conform to the `Equatable` protocol
+6. Create a `struct` called `POI` that models 3 properties: `location`, `country`, and `clues`; the data types are `String`, `String`, and an array of `String` objects
 
 #### In `POIsTableViewController.swift`:
 
