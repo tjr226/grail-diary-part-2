@@ -69,7 +69,7 @@ Please use the same repository you used yesterday for Grail Diary Part 1. If you
 
 #### In `POITableViewCell.swift`:
 
-31. Declare `IBOutlet` properties for the following cell elements: `nameLabel`, `hometownLabel`, and `hobbyCountLabel`; connect them to their appropriate labels in the storyboard
+31. Declare `IBOutlet` properties for the following cell elements: `locationLabel`, `countryLabel`, and `cluesCountLabel`; connect them to their appropriate labels in the storyboard
 32. Declare an optional property called `poi` of type `POI`; add a `didSet` observer that calls a function named `updateViews`
 33. Define a private function named `updateViews`; inside, unwrap `poi` and use its properties to populate the various labels with data
 
