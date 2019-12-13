@@ -19,9 +19,9 @@ Please use the same repository you used yesterday for Grail Diary Part 1. If you
 
 ### File Tasks
 
-1. Create a new file using the Cocoa Touch Class template; call it `POIsTableViewController` and use the parent class `UIViewController`
-2. Create 2 more files in the same way; `AddPOIViewController` (subclassed from `UIViewController`) and `POIDetailViewController` (also subclassed from `UIViewController`)
-3. Create a class subclassed from `UITableViewCell` called `POITableViewCell`
+1. Create a new file using the Cocoa Touch Class template; call it `AddPOIViewController` and make it a subclass of `UIViewController`
+2. Create one more Cocoa Touch Class in the same way called `POIDetailViewController` (also subclassed from `UIViewController`).
+3. Create another Cocoa Touch Class subclassed from `UITableViewCell` called `POITableViewCell`
 4. Create a Swift file called `POI` (this is your model)
 
 ### Storyboard Tasks
