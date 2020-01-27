@@ -37,10 +37,10 @@ Please use the same repository you used yesterday for Grail Diary Part 1. If you
 #### In `POIsTableViewController.swift`:
 
 7. Create an array property to store your `POI` models
-8. Create an `IBOutlet` to link the table view to your code; wire up this outlet to the table view in the storyboard
+8. Create an `IBOutlet` to link the table view to your code; wire up this outlet to the table view in the storyboard. This is necessary because we are using a table view in a normal `UIViewController`.
 9. In an extension, make this class conform to the `UITableViewDataSource` protocol
 10. Implement the following protocol methods: `tableView(_:numberOfRowsInSection:)` and `tableView(_:cellForRowAt:indexPath:)`
-11. Wire up the `delegate` property of the tableview in the storyboard to the view controller
+11. Set the view controller as the delegate and data source for the table view.
 
 #### In `AddPOIViewController.swift`:
 
