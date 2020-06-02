@@ -19,28 +19,29 @@ Please use the same repository you used yesterday for Grail Diary Part 1. If you
 
 ### File Tasks
 
-1. Create a new file using the Cocoa Touch Class template; call it `AddPOIViewController` and make it a subclass of `UIViewController`
-2. Create one more Cocoa Touch Class in the same way called `POIDetailViewController` (also subclassed from `UIViewController`).
-3. Create another Cocoa Touch Class subclassed from `UITableViewCell` called `POITableViewCell`
-4. Create a Swift file called `POI` (this is your model)
+DONE 1. Create a new file using the Cocoa Touch Class template; call it `AddPOIViewController` and make it a subclass of `UIViewController`
+DONE 2. Create one more Cocoa Touch Class in the same way called `POIDetailViewController` (also subclassed from `UIViewController`).
+DONE 3. Create another Cocoa Touch Class subclassed from `UITableViewCell` called `POITableViewCell`
+DONE 4. Create a Swift file called `POI` (this is your model)
 
 ### Storyboard Tasks
 
-5. Set the custom class for each view controller scene in the storyboard to match the names of the files you just created
+DONE 5. Set the custom class for each view controller scene in the storyboard to match the names of the files you just created
 
 ### Code Tasks
 
 #### In `POI.swift`:
 
-6. Create a `struct` called `POI` that models 3 properties: `location`, `country`, and `clues`; the data types are `String`, `String`, and an array of `String` objects
+DONE 6. Create a `struct` called `POI` that models 3 properties: `location`, `country`, and `clues`; the data types are `String`, `String`, and an array of `String` objects
 
 #### In `POIsTableViewController.swift`:
+(named as POIsViewController in my implementation)
 
-7. Create an array property to store your `POI` models
-8. Create an `IBOutlet` to link the table view to your code; wire up this outlet to the table view in the storyboard. This is necessary because we are using a table view in a normal `UIViewController`.
-9. In an extension, make this class conform to the `UITableViewDataSource` protocol
-10. Implement the following protocol methods: `tableView(_:numberOfRowsInSection:)` and `tableView(_:cellForRowAt:indexPath:)`
-11. Set the view controller as the delegate and data source for the table view.
+DONE 7. Create an array property to store your `POI` models
+DONE 8. Create an `IBOutlet` to link the table view to your code; wire up this outlet to the table view in the storyboard. This is necessary because we are using a table view in a normal `UIViewController`.
+DONE? 9. In an extension, make this class conform to the `UITableViewDataSource` protocol
+DONE? 10. Implement the following protocol methods: `tableView(_:numberOfRowsInSection:)` and `tableView(_:cellForRowAt:indexPath:)`
+probably not done 11. Set the view controller as the delegate and data source for the table view.
 
 #### In `AddPOIViewController.swift`:
 
